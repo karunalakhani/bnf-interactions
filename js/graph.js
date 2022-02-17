@@ -468,6 +468,16 @@ function toggleCheckbox(element) {
    for (i = 0; i < x.length; i++) {
        x[i].style.backgroundColor = "crimson";
      };
+     
+        var x = document.querySelectorAll("p[severity='Moderate']");
+   for (i = 0; i < x.length; i++) {
+       x[i].style.backgroundColor = "yellow";
+     };
+        var x = document.querySelectorAll("p[severity='NotSet']");
+   for (i = 0; i < x.length; i++) {
+       x[i].style.backgroundColor = "white";
+     };
+       
    }
    if (document.cssbox.cssbox.checked==false) {
    var x = document.querySelectorAll("p[severity='Severe']");
