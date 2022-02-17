@@ -469,13 +469,13 @@ function toggleCheckbox(element) {
        x[i].style.backgroundColor = "crimson";
      };
      
-        var x = document.querySelectorAll("p[severity='Moderate']");
-   for (i = 0; i < x.length; i++) {
-       x[i].style.backgroundColor = "yellow";
+   var m = document.querySelectorAll("p[severity='Moderate']");
+   for (i = 0; i < m.length; i++) {
+       m[i].style.backgroundColor = "yellow";
      };
-        var x = document.querySelectorAll("p[severity='NotSet']");
-   for (i = 0; i < x.length; i++) {
-       x[i].style.backgroundColor = "white";
+   var n = document.querySelectorAll("p[severity='Mild']");
+   for (i = 0; i < n.length; i++) {
+       n[i].style.backgroundColor = "blue";
      };
        
    }
